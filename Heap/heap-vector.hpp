@@ -11,10 +11,10 @@ class VHeap
 public:
   // Public Methods
   VHeap();
-  int size();
-  void push(PRIMARY_TYPE element);
-  PRIMARY_TYPE pop(PRIMARY_TYPE element);
-  PRIMARY_TYPE get(PRIMARY_TYPE element);
+  int getsize();
+  void push(const PRIMARY_TYPE element);
+  PRIMARY_TYPE pop();
+  PRIMARY_TYPE get();
 
 private:
   // Private Properties
@@ -22,8 +22,8 @@ private:
   int size;
 
   // Private Methods
-  void reHeapDown(PRIMARY_TYPE element);
-  void reHeapUp(PRIMARY_TYPE element);
+  void reHeapDown(int index);
+  void reHeapUp(int index);
 
 };
 #endif // __HEAP_VECTOR_HPP__
