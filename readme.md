@@ -9,4 +9,4 @@
 - [ ] B-Tree
 - [ ] Fenwick Tree
 - [ ] Segment Tree
-- [ ] Heap
+- [X] Heap
