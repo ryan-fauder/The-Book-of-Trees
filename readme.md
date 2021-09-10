@@ -8,4 +8,5 @@
 - [ ] Red Black Tree
 - [ ] B-Tree
 - [ ] Fenwick Tree
+- [ ] Segment Tree
 - [ ] Heap
